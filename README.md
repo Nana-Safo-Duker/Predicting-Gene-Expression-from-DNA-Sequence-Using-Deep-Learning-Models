@@ -15,26 +15,6 @@ The model combines a **Susceptible–Infected–Recovered (SIR)** framework for 
 
 ---
 
-### 🧮 Key Equations
-
-**1. ITN Efficacy Decay**
-
-![E_t](https://latex.codecogs.com/svg.image?E_t%20=%20E_{initial}%20e^{-ResistanceRate%20(t/365)})
-
-**2. Effective ITN Coverage**
-
-![C_eff](https://latex.codecogs.com/svg.image?C_{eff}%20=%20ITN_{Coverage}%20\cdot%20E_t)
-
-**3. Transmission Reduction Factor**
-
-![T_red](https://latex.codecogs.com/svg.image?T_{red}%20=%201%20-%20C_{eff})
-
-**4. Modified Transmission Rates**
-
-![beta_vh](https://latex.codecogs.com/svg.image?\beta_{v%20\rightarrow%20h}%20=%20\beta_{v,\text{base}}%20\cdot%20T_{red}),  
-![beta_hv](https://latex.codecogs.com/svg.image?\beta_{h%20\rightarrow%20v}%20=%20\beta_{h,\text{base}}%20\cdot%20T_{red})
-
----
 
 For a complete explanation of the model equations, parameter definitions, and assumptions, see the accompanying article on **[Medium](https://medium.com/@freshsafoduker300/simulating-and-fitting-malaria-transmission-model-in-madagascar-impact-of-insecticide-treated-nets-fd9c10d4cda4)**.
 
