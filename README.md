@@ -38,6 +38,13 @@ The model combines a **Susceptible–Infected–Recovered (SIR)** framework for 
 
 For a complete explanation of the model equations, parameter definitions, and assumptions, see the accompanying article on **[Medium](https://medium.com/@freshsafoduker300/simulating-and-fitting-malaria-transmission-model-in-madagascar-impact-of-insecticide-treated-nets-fd9c10d4cda4)**.
 
+
+![Made with R](https://img.shields.io/badge/Made%20with-R-276DC3?style=for-the-badge&logo=r&logoColor=white)
+![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)
+[![Medium Article](https://img.shields.io/badge/Read%20on-Medium-black?style=for-the-badge&logo=medium)](https://medium.com/@freshsafoduker300/simulating-and-fitting-malaria-transmission-model-in-madagascar-impact-of-insecticide-treated-nets-fd9c10d4cda4)
+[![GitHub repo](https://img.shields.io/badge/View%20on-GitHub-181717?style=for-the-badge&logo=github)](https://github.com/Nana-Safo-Duker/Malaria_Transmission_Model_Madagascar)
+
+
 ---
 
 ## 🧩 Files
