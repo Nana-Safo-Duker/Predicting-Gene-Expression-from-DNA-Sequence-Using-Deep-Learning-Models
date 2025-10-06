@@ -33,7 +33,6 @@ For a complete explanation of the model equations, parameter definitions, and as
 |------|--------------|
 | `Malaria_Transmission_Model_Madagascar.r` | Main R script implementing the SIR–SI model and simulations. |
 | `Malaria-Transmission-Model-in-Madagascar.ipynb` | Jupyter notebook version (R kernel) for interactive exploration. |
-| `outputs/` | Folder for generated plots, results, and sensitivity analyses. |
 
 ---
 
