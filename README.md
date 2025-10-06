@@ -1,4 +1,3 @@
-# Malaria Transmission Model in Madagascar
 # 🦟 Malaria Transmission Model in Madagascar
 
 This repository contains the R-based simulation and fitting of a **malaria transmission model** that combines an SIR (Susceptible–Infected–Recovered) framework for the human population and an SI (Susceptible–Infected) framework for the mosquito population. 
@@ -13,9 +12,9 @@ The model incorporates **Insecticide-Treated Net (ITN)** effectiveness that deca
 
 ## ⚙️ Requirements
 - R version ≥ 4.0  
-- Packages: `deSolve`, `tidyverse`, `ggplot2`
+- Packages: `deSolve`, `tidyverse`
 
 ## 🚀 How to Run
 ```R
 # Run the model simulation
-source("Malaria_Transmission_Model.R")
+source("Malaria-Transmission-Model-in-Madagascar.R")
