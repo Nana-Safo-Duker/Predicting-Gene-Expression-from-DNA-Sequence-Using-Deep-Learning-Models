@@ -11,8 +11,3 @@ The model incorporates **Insecticide-Treated Net (ITN)** effectiveness that deca
 ## ⚙️ Requirements
 - R version ≥ 4.0  
 - Packages: `deSolve`, `tidyverse`
-
-## 🚀 How to Run
-```R
-# Run the model simulation
-source("Malaria_Transmission_Model_Madagascar.r")
