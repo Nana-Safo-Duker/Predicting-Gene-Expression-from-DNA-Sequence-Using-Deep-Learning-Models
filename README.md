@@ -6,8 +6,7 @@ The model incorporates **Insecticide-Treated Net (ITN)** effectiveness that deca
 
 ## 📂 Contents
 - `Malaria-Transmission-Model-in-Madagascar.R`: R script implementing the model equations.
-- `Malaria-Transmission-Model-in-Madagascar.R.ipynb`: Notebook version of the simulation.
-- `figures/`: Model output plots and figures.
+- `Malaria-Transmission-Model-in-Madagascar.ipynb`: Notebook version of the simulation.
 
 ## ⚙️ Requirements
 - R version ≥ 4.0  
