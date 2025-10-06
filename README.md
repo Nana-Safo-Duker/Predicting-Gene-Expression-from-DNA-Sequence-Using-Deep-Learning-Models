@@ -14,21 +14,17 @@ The model combines a **Susceptible–Infected–Recovered (SIR)** framework for 
 - The model dynamically adjusts mosquito–human transmission rates based on **ITN efficacy decay**, reflecting the buildup of **insecticide resistance** over time.
 
 ### Key Equations
-
 \[
 E_t = E_{\text{initial}} \cdot e^{-\text{ResistanceRate} \cdot (t / 365)}
 \]
-
 \[
 C_{\text{eff}} = \text{ITN}_{\text{Coverage}} \cdot E_t
 \]
-
 \[
 T_{\text{red}} = 1 - C_{\text{eff}}
 \]
 
-Modified transmission rates:
-
+Modified transmission:
 \[
 \beta_{v \rightarrow h} = \beta_{v,\text{base}} \cdot T_{\text{red}}, \quad
 \beta_{h \rightarrow v} = \beta_{h,\text{base}} \cdot T_{\text{red}}
