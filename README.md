@@ -9,26 +9,32 @@ The model combines a **Susceptible–Infected–Recovered (SIR)** framework for 
 ## 📘 Model Overview
 
 ### Mathematical Framework
-- **Humans:** \( S_h \rightarrow I_h \rightarrow R_h \)
-- **Mosquitoes:** \( S_v \rightarrow I_v \)
+- **Humans:** ( Sₕ → Iₕ → Rₕ )  
+- **Mosquitoes:** ( Sᵥ → Iᵥ )  
 - The model dynamically adjusts mosquito–human transmission rates based on **ITN efficacy decay**, reflecting the buildup of **insecticide resistance** over time.
 
-### Key Equations
-\[
-E_t = E_{\text{initial}} \cdot e^{-\text{ResistanceRate} \cdot (t / 365)}
-\]
-\[
-C_{\text{eff}} = \text{ITN}_{\text{Coverage}} \cdot E_t
-\]
-\[
-T_{\text{red}} = 1 - C_{\text{eff}}
-\]
+---
 
-Modified transmission:
-\[
-\beta_{v \rightarrow h} = \beta_{v,\text{base}} \cdot T_{\text{red}}, \quad
-\beta_{h \rightarrow v} = \beta_{h,\text{base}} \cdot T_{\text{red}}
-\]
+### 🧮 Key Equations
+
+**1. ITN Efficacy Decay**
+
+![E_t](https://latex.codecogs.com/svg.image?E_t%20=%20E_{initial}%20e^{-ResistanceRate%20(t/365)})
+
+**2. Effective ITN Coverage**
+
+![C_eff](https://latex.codecogs.com/svg.image?C_{eff}%20=%20ITN_{Coverage}%20\cdot%20E_t)
+
+**3. Transmission Reduction Factor**
+
+![T_red](https://latex.codecogs.com/svg.image?T_{red}%20=%201%20-%20C_{eff})
+
+**4. Modified Transmission Rates**
+
+![beta_vh](https://latex.codecogs.com/svg.image?\beta_{v%20\rightarrow%20h}%20=%20\beta_{v,\text{base}}%20\cdot%20T_{red}),  
+![beta_hv](https://latex.codecogs.com/svg.image?\beta_{h%20\rightarrow%20v}%20=%20\beta_{h,\text{base}}%20\cdot%20T_{red})
+
+---
 
 For a complete explanation of the model equations, parameter definitions, and assumptions, see the accompanying article on **[Medium](https://medium.com/@freshsafoduker300/simulating-and-fitting-malaria-transmission-model-in-madagascar-impact-of-insecticide-treated-nets-fd9c10d4cda4)**.
 
