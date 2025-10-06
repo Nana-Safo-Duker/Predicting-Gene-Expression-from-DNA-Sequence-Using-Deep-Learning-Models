@@ -5,7 +5,7 @@ This repository contains the R-based simulation and fitting of a **malaria trans
 The model incorporates **Insecticide-Treated Net (ITN)** effectiveness that decays over time to simulate growing insecticide resistance — a key public health challenge in malaria control.
 
 ## 📂 Contents
-- `Malaria-Transmission-Model-in-Madagascar.R`: R script implementing the model equations.
+- `Malaria-Transmission-Model-in-Madagascar.r`: R script implementing the model equations.
 - `Malaria-Transmission-Model-in-Madagascar.ipynb`: Notebook version of the simulation.
 
 ## ⚙️ Requirements
@@ -15,4 +15,4 @@ The model incorporates **Insecticide-Treated Net (ITN)** effectiveness that deca
 ## 🚀 How to Run
 ```R
 # Run the model simulation
-source("Malaria-Transmission-Model-in-Madagascar.R")
+source("Malaria-Transmission-Model-in-Madagascar.r")
