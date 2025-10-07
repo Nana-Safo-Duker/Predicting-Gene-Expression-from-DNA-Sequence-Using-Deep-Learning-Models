@@ -6,6 +6,8 @@ This study investigates the epidemiological impact of ITNs under varying resista
 - **Standard ITNs (No Resistance)**
 - **ITNs with Low Resistance**
 - **ITNs with High Resistance**
+
+
 By combining modeling and recent prevalence data (2019–2024), the analysis highlights the effectiveness of ITNs, the impact of resistance and implications for malaria control strategies in Madagascar.
 
 
