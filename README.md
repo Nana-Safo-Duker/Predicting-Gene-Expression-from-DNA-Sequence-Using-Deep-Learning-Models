@@ -1,4 +1,13 @@
-# 🦟 Malaria Transmission Model – Madagascar
+# 🦟Simulating and Fitting Malaria Transmission Model in Madagascar: Impact of Insecticide-Treated Nets (ITNs)
+
+This study investigates the epidemiological impact of ITNs under varying resistance scenarios. Using a modified Susceptible, Infected, Recovered (SIR) model with integrated vector dynamics, we simulate malaria transmission in Madagascar and compare outcomes across four scenarios:
+
+- **No ITNs**
+- **Standard ITNs (No Resistance)**
+- **ITNs with Low Resistance**
+- **ITNs with High Resistance**
+By combining modeling and recent prevalence data (2019–2024), the analysis highlights the effectiveness of ITNs, the impact of resistance and implications for malaria control strategies in Madagascar.
+
 
 This repository contains a **deterministic malaria transmission model** that simulates the interaction between humans and mosquito vectors under varying **Insecticide-Treated Net (ITN)** coverage and resistance conditions.  
 
