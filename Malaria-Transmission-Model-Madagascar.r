@@ -1,5 +1,16 @@
-library(tidyverse)
+# ===============================================================
+#  Simulating and Fitting Malaria Transmission Model in Madagascar:Impact of Insecticide-Treated Nets (ITNs)
+#  Author: Nana Safo Duker
+#  Date: 2025
+#  Description:
+#     Coupled SIR–SI malaria transmission model incorporating
+#     time-dependent ITN effectiveness decay due to insecticide
+#     resistance. Implemented using deSolve in R.
+# ===============================================================
+
+# --- Load Libraries ---
 library(deSolve)
+library(tidyverse)
 
 # -------- FUNCTION -------------
 # 1. Define the SIR model with ITN effects and resistance
@@ -237,3 +248,4 @@ cat("   - ITN coverage:", round(itn_coverage * 100, 0), "%\n")
 cat("   - Initial ITN efficacy:", round(itn_efficacy * 100, 0), "%\n")
 cat("   - Resistance rate:", round(resistance_rate * 100, 1), "% per year\n")
 cat("   - After 5 years, ITN efficacy drops to:", round(itn_efficacy * exp(-resistance_rate * 5) * 100, 1), "%\n")
+ssssss
