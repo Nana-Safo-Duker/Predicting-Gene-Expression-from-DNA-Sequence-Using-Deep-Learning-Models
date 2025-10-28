@@ -25,3 +25,5 @@ ipykernel>=6.0.0
 pillow>=8.3.0  # For image handling
 tqdm>=4.62.0   # Progress bars
 
+
+
