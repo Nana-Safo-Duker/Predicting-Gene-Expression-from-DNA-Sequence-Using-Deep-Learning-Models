@@ -2,14 +2,14 @@
 
 ## 🚀 Getting Started
 
-This repository contains comprehensive visualizations and analysis code demonstrating how deep learning models predict gene expression from DNA sequences.
+This repository contains comprehensive visualization and analysis tools for understanding how deep learning models predict gene expression from DNA sequences.
 
 ### What's Included
 
-✅ **Interactive Jupyter Notebook** - Step-by-step visualization workflow  
 ✅ **5 Professional Visualizations** - High-resolution figures (300 DPI)  
 ✅ **Python Script** - Generate all visualizations automatically  
 ✅ **R Script** - Alternative implementation in R  
+✅ **Statistical Analysis** - Complete metrics and validation  
 ✅ **README** - Detailed documentation
 
 ---
@@ -18,10 +18,11 @@ This repository contains comprehensive visualizations and analysis code demonstr
 
 | File | Description |
 |------|-------------|
-| `visualizations.ipynb` | Interactive Jupyter notebook with step-by-step workflow |
+| `gene_expression_visualizations.ipynb` | Interactive Jupyter notebook |
 | `visualizations.py` | Python script to generate all figures |
 | `visualizations.R` | R script for visualizations |
 | `README.md` | Comprehensive project documentation |
+| `QUICK_START.md` | This quick reference guide |
 | `requirements.txt` | Python dependencies |
 | `figures/` | Generated visualization images |
 
@@ -29,31 +30,24 @@ This repository contains comprehensive visualizations and analysis code demonstr
 
 ## 🎯 Quick Actions
 
-### 1. Explore the Interactive Notebook
+### 1. Generate Visualizations
 
+**Option A: Interactive Notebook (Recommended)**
 ```bash
-# Launch the Jupyter notebook
-jupyter notebook visualizations.ipynb
+jupyter notebook gene_expression_visualizations.ipynb
 ```
 
-The notebook provides:
-- Step-by-step execution of all visualizations
-- Detailed explanations for each figure
-- Interactive exploration of data and results
-
-### 2. Generate Visualizations
-
-**Python:**
+**Option B: Python Script**
 ```bash
 python visualizations.py
 ```
 
-**R:**
+**Option C: R Script**
 ```bash
 Rscript visualizations.R
 ```
 
-**Or use automated script:**
+**Option D: Automated Script**
 
 Windows:
 ```bash
@@ -65,7 +59,7 @@ Linux/Mac:
 bash run_all_visualizations.sh
 ```
 
-### 3. View Generated Figures
+### 2. View Generated Figures
 
 All figures are saved in the `figures/` directory:
 
@@ -77,7 +71,7 @@ All figures are saved in the `figures/` directory:
 
 ---
 
-## 📊 Key Results
+## 📊 Key Results Highlighted in Blog Post
 
 | Metric | Value |
 |--------|-------|
@@ -106,6 +100,18 @@ pip install numpy matplotlib seaborn scipy scikit-learn pandas
 ```R
 install.packages(c("ggplot2", "dplyr", "gridExtra", "viridis"))
 ```
+
+---
+
+## 📊 Visualization Analysis
+
+The generated figures provide comprehensive analysis:
+
+1. **Model Performance** - Predicted vs experimental correlation
+2. **Error Analysis** - Distribution and patterns
+3. **Cell Type Performance** - Robustness across contexts
+4. **Model Comparison** - Performance vs baselines
+5. **Attention Mechanism** - Interpretability analysis
 
 ---
 
@@ -187,10 +193,10 @@ mkdir figures
 
 - [ ] All Python dependencies installed
 - [ ] Visualizations generated successfully (5 PNG files in `figures/`)
-- [ ] Interactive notebook explored (`visualizations.ipynb`)
 - [ ] README documentation read
-- [ ] Code customized (if needed)
-- [ ] Figures exported for presentation/publication
+- [ ] Figures reviewed and understood
+- [ ] Code customized if needed
+- [ ] Visualizations used in research/presentation
 
 ---
 
@@ -199,8 +205,8 @@ mkdir figures
 1. **Figures are publication-quality** (300 DPI) - suitable for presentations and papers
 2. **Code is well-commented** - easy to understand and modify
 3. **Simulated data is realistic** - based on actual research performance metrics
-4. **Interactive notebook is educational** - step-by-step workflow with explanations
-5. **Multiple formats provided** - Python, R, and Jupyter notebook options
+4. **Statistical analysis is comprehensive** - includes all major metrics
+5. **Multiple formats provided** - Python and R implementations
 
 ---
 
@@ -208,23 +214,25 @@ mkdir figures
 
 Need help?
 
-- **Email**: sdo-support@stanford.edu
-- **Community**: Stanford Data Ocean Ed Discussions
 - **Documentation**: See README.md for detailed information
+- **Code Issues**: Check inline comments in visualization scripts
+- **Dependencies**: Run `python test_dependencies.py`
 
 ---
 
 ## 🌟 Next Steps
 
-1. ✅ Explore the interactive notebook
-2. ✅ Generate visualizations
-3. ✅ Customize parameters if needed
-4. ✅ Export figures for your use
-5. ✅ Extend the analysis (optional)
+1. ✅ Generate visualizations
+2. ✅ Review figure outputs
+3. ✅ Customize if needed
+4. ✅ Use in your research
+5. ✅ Share with colleagues
 
 ---
 
-**Happy visualizing! 🎊**
+**Happy analyzing! 🎊**
 
-*Last Updated: October 28, 2025*
+*Last Updated: October 26, 2025*
+
+
 
