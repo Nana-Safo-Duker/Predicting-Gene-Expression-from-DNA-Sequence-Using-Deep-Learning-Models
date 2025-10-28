@@ -1,0 +1,36 @@
+# Cardiovascular Risk Prediction Visualization - Python Dependencies
+# Install with: pip install -r requirements.txt
+
+# Core numerical computing
+numpy>=1.19.0
+
+# Data manipulation and analysis
+pandas>=1.2.0
+
+# Visualization libraries
+matplotlib>=3.3.0
+seaborn>=0.11.0
+
+# Scientific computing and statistics
+scipy>=1.6.0
+
+# Machine learning metrics and tools
+scikit-learn>=0.24.0
+
+# Optional: Jupyter notebook support
+jupyter>=1.0.0
+ipykernel>=6.0.0
+notebook>=6.4.0
+
+# Optional: Enhanced visualization
+plotly>=5.0.0
+
+# Optional: Progress bars
+tqdm>=4.60.0
+
+
+
+
+
+
+
