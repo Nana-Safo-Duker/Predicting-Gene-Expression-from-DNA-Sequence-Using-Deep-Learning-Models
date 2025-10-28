@@ -47,13 +47,22 @@ env/
 Thumbs.db
 Desktop.ini
 
-# Output files (optional - uncomment if you don't want to track generated figures)
-# figures/*.png
-# figures/*.pdf
-# figures/*.jpg
+# Generated outputs - Users should regenerate these
+figures/*.png
+figures/*.pdf
+figures/*.jpg
+
+# Internal status reports - Not needed for users
+COMPLETE_ERROR_CHECK_REPORT.md
+ERROR_CHECK_SUMMARY.md
+FINAL_STATUS.md
+UPDATES_SUMMARY.md
+SYNCHRONIZATION_REPORT.md
+SYNC_STATUS.md
+FINAL_SYNC_SUMMARY.md
+GITHUB_PUSH_GUIDE.md
 
 # Temporary files
 *.tmp
 *.bak
 *.log
-
