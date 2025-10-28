@@ -6,14 +6,15 @@
 
 ## Overview
 
-This repository contains comprehensive visualization code and analysis exploring how deep learning models can predict gene expression levels directly from DNA sequences. This work represents a breakthrough in computational biology, achieving unprecedented accuracy (Pearson r = 0.85) in understanding the relationship between genomic sequence and gene regulation.
+This repository contains comprehensive visualization code and analysis for exploring how deep learning models can predict gene expression levels directly from DNA sequences. This work represents a breakthrough in computational biology, achieving unprecedented accuracy (Pearson r = 0.85) in understanding the relationship between genomic sequence and gene regulation.
 
 ## Contents
 
+- **Jupyter Notebook** (`gene_expression_visualizations.ipynb`): Interactive notebook for visualization generation
 - **Python Visualizations** (`visualizations.py`): Standalone Python script for generating all figures
-- **Interactive Notebook** (`visualizations.ipynb`): Jupyter notebook with step-by-step visualization workflow
 - **R Visualizations** (`visualizations.R`): R implementation of key visualizations
 - **Figures Directory** (`figures/`): Output directory for generated visualizations
+- **Documentation** (`README.md`, `QUICK_START.md`): Comprehensive project documentation
 
 ## Key Findings
 
@@ -42,38 +43,22 @@ pip install numpy matplotlib seaborn scipy scikit-learn pandas jupyter
 install.packages(c("ggplot2", "dplyr", "gridExtra", "viridis"))
 ```
 
-## Quick Start
-
-The fastest way to explore the visualizations:
-
-```bash
-# 1. Install dependencies
-pip install numpy matplotlib seaborn scipy scikit-learn pandas jupyter
-
-# 2. Launch the interactive notebook
-jupyter notebook visualizations.ipynb
-
-# 3. Run all cells (Cell > Run All) to generate all visualizations
-```
-
 ## Usage
 
-### Generate Visualizations (Python)
-
-**Option 1: Interactive Jupyter Notebook** (Recommended)
+### Option 1: Jupyter Notebook (Interactive)
 
 ```bash
-# Launch the interactive visualization notebook
-jupyter notebook visualizations.ipynb
+# Launch Jupyter Notebook
+jupyter notebook gene_expression_visualizations.ipynb
 ```
 
-The notebook provides:
-- Step-by-step execution of all visualizations
-- Detailed markdown explanations for each figure
-- Interactive exploration of data and results
-- Educational walkthrough of the analysis
+This interactive notebook allows you to:
+- Run code cells step-by-step
+- Modify parameters in real-time
+- See visualizations inline
+- Experiment with different settings
 
-**Option 2: Standalone Python Script**
+### Option 2: Python Script (Command Line)
 
 ```bash
 # Run Python visualization script
@@ -272,13 +257,8 @@ Contributions are welcome! Please feel free to submit pull requests or open issu
 
 ## Version History
 
-- **v1.1.0** (October 2025): Interactive notebook release
-  - Added interactive Jupyter notebook (`visualizations.ipynb`)
-  - Step-by-step visualization workflow with explanations
-  - Enhanced educational content and documentation
-  
 - **v1.0.0** (October 2025): Initial release
-  - 5 comprehensive visualization figures
+  - Complete blog post with 5 comprehensive figures
   - Python and R visualization scripts
   - Comprehensive documentation
 
@@ -288,5 +268,7 @@ Contributions are welcome! Please feel free to submit pull requests or open issu
 
 ---
 
-*Last Updated: October 28, 2025*
+*Last Updated: October 26, 2025*
+
+
 
