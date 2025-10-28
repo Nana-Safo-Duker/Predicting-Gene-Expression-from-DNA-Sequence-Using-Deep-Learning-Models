@@ -234,21 +234,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Research Community**: For open-source tools and datasets
 - **Course Instructors**: For guidance on bioinformatics and computational biology
 
-## Support
-
-For questions or issues:
-- Open an issue on GitHub
-- Contact: sdo-support@stanford.edu
-- Stanford Data Ocean Community: [Ed Discussions](https://edstem.org/)
-
-## Scholarship Information
-
-**Stanford Data Ocean** provides Stanford certificate training in precision medicine **without costs** to anyone whose annual income is under $70,000 USD/year.
-
-**Apply for scholarship here**: https://docs.google.com/forms/d/e/1FAIpQLSfi6ucNOQZwRLDjX_ZMScpkX-ct_p2i8ylP24JYoMlgR8Kz_Q/viewform
-
----
-
 ## Contributing
 
 Contributions are welcome! Please feel free to submit pull requests or open issues for:
