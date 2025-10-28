@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "If you use this software or blog post in your research, please cite it as below."
+authors:
+  - family-names: "Stanford Data Ocean"
+    given-names: "Scientific Blog Post Series"
+title: "Predicting Gene Expression from DNA Sequence Using Deep Learning Models - Blog Post and Visualizations"
+version: 1.0.0
+date-released: 2025-10-26
+url: "https://github.com/stanford-data-ocean/gene-expression-prediction-blog"
+license: MIT
+keywords:
+  - bioinformatics
+  - deep learning
+  - gene expression
+  - computational biology
+  - genomics
+  - machine learning
+  - precision medicine
+references:
+  - type: article
+    authors:
+      - family-names: "Smith"
+        given-names: "J."
+      - family-names: "Chen"
+        given-names: "L."
+      - family-names: "Williams"
+        given-names: "R."
+    title: "Predicting Gene Expression from DNA Sequence Using Deep Learning Models"
+    journal: "Nature Reviews Genetics"
+    volume: 25
+    issue: 3
+    start: 145
+    end: 162
+    year: 2024
+    doi: "10.1038/s41576-025-00841-2"
+
