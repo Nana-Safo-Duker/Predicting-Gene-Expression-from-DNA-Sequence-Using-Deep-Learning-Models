@@ -2,8 +2,8 @@
 REM =============================================================================
 REM Run All Visualizations (Windows)
 REM =============================================================================
-REM This script generates all visualizations for gene expression prediction
-REM analysis using both Python and R.
+REM This script generates all visualizations for the gene expression prediction
+REM blog post using both Python and R.
 REM
 REM Usage: run_all_visualizations.bat
 REM =============================================================================
@@ -76,9 +76,11 @@ dir figures\
 
 echo.
 echo Next steps:
-echo   1. Launch interactive notebook: jupyter notebook visualizations.ipynb
-echo   2. Check visualizations in the figures\ directory
-echo   3. See README.md for detailed documentation
+echo   1. Check visualizations in the figures\ directory
+echo   2. Read documentation: README.md or QUICK_START.md
+echo   3. Use figures in your research or presentations
 
 pause
+
+
 
