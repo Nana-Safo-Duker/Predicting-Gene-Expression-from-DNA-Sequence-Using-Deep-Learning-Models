@@ -108,6 +108,8 @@ The deep learning framework combines:
 
 ## Visualizations
 
+> **Note**: The figures below are generated when you run the visualization scripts (`visualizations.py`, `visualizations.R`, or `gene_expression_visualizations.ipynb`). The images will be saved in the `figures/` directory and will display here once generated.
+
 ### Figure 1: Model Performance
 ![Model Performance](figures/figure1_model_performance.png)
 
