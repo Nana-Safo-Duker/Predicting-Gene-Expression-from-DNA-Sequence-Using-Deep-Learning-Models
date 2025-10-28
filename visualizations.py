@@ -6,7 +6,7 @@ Gene Expression Prediction Visualizations
 This script generates comprehensive visualizations for analyzing
 deep learning model performance in predicting gene expression from DNA sequences.
 
-Author: Scientific Blog Post Series
+Author: Bioinformatics Visualization Toolkit
 Date: October 26, 2025
 Topic: Bioinformatics, Deep Learning, Gene Expression
 
@@ -38,6 +38,9 @@ plt.rcParams['font.size'] = 10
 
 # Create output directory for figures
 os.makedirs('figures', exist_ok=True)
+
+# Set random seed for reproducibility
+np.random.seed(42)
 
 
 def generate_simulated_data(n_samples=2000, correlation=0.85, seed=42):
